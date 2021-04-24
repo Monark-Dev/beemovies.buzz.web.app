@@ -41,7 +41,7 @@ async function loadSiteContent() {
         for (movie in moviesWannaBees){
             beesSliderCardsHTML += `       
                 <div class="home__card">
-                        <a href="details.html">
+                        <a href="#">
                             <img src=${imageBaseURL}${imageWidth}${moviesWannaBees[movie].poster_path} alt="">
                         </a>
                         <div>

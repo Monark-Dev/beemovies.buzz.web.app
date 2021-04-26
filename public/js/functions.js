@@ -32,6 +32,13 @@ async function createMoviesWannaBeesJsonDatabase() {
     })
     return moviesWannaBees;
 }
+// Antonio example
+// async function listeFilms(par){
+//     if (par==="fetch"){
+//         await getFilms().then(reponse => {tabFilms=reponse});
+//         console.log(tabFilms);
+//     }
+
 
 async function loadSiteContent() {
     let moviesWannaBees = await createMoviesWannaBeesJsonDatabase();
@@ -78,4 +85,5 @@ async function loadSiteContent() {
                 </div>`;
         }
     document.getElementById('bees_catalogue_card').innerHTML = beesCatalogueCardsHTML;
+    // document.getElementById('bees_slider_card').innerHTML = beesSliderCardsHTML;
 }

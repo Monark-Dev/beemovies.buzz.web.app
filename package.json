@@ -1,0 +1,19 @@
+{
+  "name": "beemovies.buzz",
+  "version": "1.0.0",
+  "description": "init json BeeMovies.buzz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Monark-Dev/beemovies.buzz.web.app.git"
+  },
+  "author": "WannaBees",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Monark-Dev/beemovies.buzz.web.app/issues"
+  },
+  "homepage": "https://github.com/Monark-Dev/beemovies.buzz.web.app#readme"
+}
